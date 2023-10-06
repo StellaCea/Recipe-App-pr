@@ -1,0 +1,35 @@
+{% load static %}
+
+<!DOCTYPE html>
+<html>
+    <title>Recipes Home</title>
+    <link rel="stylesheet" type="text/css" href="{% static 'recipes/css/styles.css' %}">
+    <style type="text/css">
+        body {
+            background: url("{% static 'recipes/images/background.jpg' %}");
+            background-size: cover;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        h1,
+        h3 {
+            font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif text-align: center;
+        }
+    </style>
+
+    <body>
+        <nav>
+            <img src="{% static 'recipes/images/food_logo.png' %}" alt="logo" height="200px" width="200px">
+        </nav>
+
+        <h1>Discover a world of culinary delights</h1>
+        <h1>with our MoodForFood app</h1>
+        <h3>Login to explore recipes ↓</h3>
+
+        <button class="custom-button"><a href="{%url 'login' %}">Login</a></button>
+
+    </body>
+
+</html>
