@@ -4,11 +4,11 @@
 An easy-to-use recipe application developed using Django and hosted on Heroku. It seamlessly connects to a SQL database and operates directly within your web browser. You can effortlessly login and find your favorite recipes to your heart's content.
 
 ## Used Technologies ##
-Python
-Django
-HTML
-CSS
-JavaScript
+- Python
+- Django
+- HTML
+- CSS
+- JavaScript
 
 ## Screenshots ##
 Homepage
